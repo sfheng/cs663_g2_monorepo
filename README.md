@@ -3,6 +3,8 @@ A monorepo containing the google colab training files, the data, and the android
 
 ( Please use Cal State East Bay Id to view the below links)  
 
+Google Colab Link : https://colab.research.google.com/drive/1bAANo9wFWu2RbnVXRvmKUeVYyla9NYl_#scrollTo=E8VxPiOLy4Gv
+
 Campus Data Images Drive Link : https://drive.google.com/drive/folders/1fjKtVYxiEHVEvm2PbjQmjzndCxp_jMhE?usp=share_link  
 
 Campus Data Info Drive Link : https://docs.google.com/spreadsheets/d/1JOWXOfNx5cJXh7KuB5xtgMYAgKUg1qXZ40ZPlAm1S6g/edit?usp=share_link  
