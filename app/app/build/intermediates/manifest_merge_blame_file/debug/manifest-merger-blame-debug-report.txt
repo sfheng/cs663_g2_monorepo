@@ -1,0 +1,122 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.tensorflow.codelabs.objectdetection"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\STSC\Downloads\odml-pathways-main\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\STSC\Downloads\odml-pathways-main\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml
+10
+11    <queries>
+11-->C:\Users\STSC\Downloads\odml-pathways-main\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:5:5-9:15
+12        <intent>
+12-->C:\Users\STSC\Downloads\odml-pathways-main\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:6:9-8:18
+13            <action android:name="android.media.action.IMAGE_CAPTURE" />
+13-->C:\Users\STSC\Downloads\odml-pathways-main\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:7:13-73
+13-->C:\Users\STSC\Downloads\odml-pathways-main\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:7:21-70
+14        </intent>
+15        <!-- Needs to be explicitly declared on Android R+ -->
+16        <package android:name="com.google.android.apps.maps" />
+16-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\STSC\.gradle\caches\transforms-3\ea07368afcd18201bf2ec26c669c99b2\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:33:9-64
+16-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\STSC\.gradle\caches\transforms-3\ea07368afcd18201bf2ec26c669c99b2\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:33:18-61
+17    </queries>
+18
+19    <!-- Include required permissions for Google Maps API to run. -->
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\STSC\.gradle\caches\transforms-3\ea07368afcd18201bf2ec26c669c99b2\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:23:5-79
+20-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\STSC\.gradle\caches\transforms-3\ea07368afcd18201bf2ec26c669c99b2\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:23:22-76
+21    <uses-permission android:name="android.permission.INTERNET" />
+21-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\STSC\.gradle\caches\transforms-3\ea07368afcd18201bf2ec26c669c99b2\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:24:5-67
+21-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\STSC\.gradle\caches\transforms-3\ea07368afcd18201bf2ec26c669c99b2\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:24:22-64
+22
+23    <uses-feature
+23-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\STSC\.gradle\caches\transforms-3\ea07368afcd18201bf2ec26c669c99b2\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:26:5-28:35
+24        android:glEsVersion="0x00020000"
+24-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\STSC\.gradle\caches\transforms-3\ea07368afcd18201bf2ec26c669c99b2\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:27:9-41
+25        android:required="true" />
+25-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\STSC\.gradle\caches\transforms-3\ea07368afcd18201bf2ec26c669c99b2\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:28:9-32
+26
+27    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+28    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+29    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+30
+31    <application
+31-->C:\Users\STSC\Downloads\odml-pathways-main\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:11:5-35:19
+32        android:allowBackup="true"
+32-->C:\Users\STSC\Downloads\odml-pathways-main\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:12:9-35
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.3.2] C:\Users\STSC\.gradle\caches\transforms-3\b802ec5f7dfd97200823836ad5713fb4\transformed\core-1.3.2\AndroidManifest.xml:24:18-86
+34        android:debuggable="true"
+35        android:extractNativeLibs="false"
+36        android:icon="@mipmap/ic_launcher"
+36-->C:\Users\STSC\Downloads\odml-pathways-main\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:13:9-43
+37        android:label="@string/app_name"
+37-->C:\Users\STSC\Downloads\odml-pathways-main\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:14:9-41
+38        android:roundIcon="@mipmap/ic_launcher_round"
+38-->C:\Users\STSC\Downloads\odml-pathways-main\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:15:9-54
+39        android:supportsRtl="true"
+39-->C:\Users\STSC\Downloads\odml-pathways-main\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:16:9-35
+40        android:testOnly="true"
+41        android:theme="@style/Theme.ObjectDetection" >
+41-->C:\Users\STSC\Downloads\odml-pathways-main\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:17:9-53
+42        <activity android:name="org.tensorflow.codelabs.objectdetection.MainActivity" >
+42-->C:\Users\STSC\Downloads\odml-pathways-main\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:18:9-24:20
+42-->C:\Users\STSC\Downloads\odml-pathways-main\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:18:19-86
+43            <intent-filter>
+43-->C:\Users\STSC\Downloads\odml-pathways-main\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:19:13-23:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->C:\Users\STSC\Downloads\odml-pathways-main\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:20:17-69
+44-->C:\Users\STSC\Downloads\odml-pathways-main\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:20:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->C:\Users\STSC\Downloads\odml-pathways-main\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:22:17-77
+46-->C:\Users\STSC\Downloads\odml-pathways-main\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:22:27-74
+47            </intent-filter>
+48        </activity>
+49
+50        <provider
+50-->C:\Users\STSC\Downloads\odml-pathways-main\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:26:9-34:20
+51            android:name="androidx.core.content.FileProvider"
+51-->C:\Users\STSC\Downloads\odml-pathways-main\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:27:13-62
+52            android:authorities="org.tensorflow.codelabs.objectdetection.fileprovider"
+52-->C:\Users\STSC\Downloads\odml-pathways-main\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:28:13-87
+53            android:exported="false"
+53-->C:\Users\STSC\Downloads\odml-pathways-main\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:29:13-37
+54            android:grantUriPermissions="true" >
+54-->C:\Users\STSC\Downloads\odml-pathways-main\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:30:13-47
+55            <meta-data
+55-->C:\Users\STSC\Downloads\odml-pathways-main\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:31:13-33:54
+56                android:name="android.support.FILE_PROVIDER_PATHS"
+56-->C:\Users\STSC\Downloads\odml-pathways-main\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:32:17-67
+57                android:resource="@xml/file_paths" />
+57-->C:\Users\STSC\Downloads\odml-pathways-main\odml-pathways-main\object-detection\codelab2\android\final\app\src\main\AndroidManifest.xml:33:17-51
+58        </provider>
+59        <!-- Needs to be explicitly declared on P+ -->
+60        <uses-library
+60-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\STSC\.gradle\caches\transforms-3\ea07368afcd18201bf2ec26c669c99b2\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:39:9-41:40
+61            android:name="org.apache.http.legacy"
+61-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\STSC\.gradle\caches\transforms-3\ea07368afcd18201bf2ec26c669c99b2\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:40:13-50
+62            android:required="false" />
+62-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\STSC\.gradle\caches\transforms-3\ea07368afcd18201bf2ec26c669c99b2\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:41:13-37
+63
+64        <activity
+64-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\STSC\.gradle\caches\transforms-3\24984c29e07e32f083cb0ad4e7337f06\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+65            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+65-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\STSC\.gradle\caches\transforms-3\24984c29e07e32f083cb0ad4e7337f06\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+66            android:exported="false"
+66-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\STSC\.gradle\caches\transforms-3\24984c29e07e32f083cb0ad4e7337f06\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+67            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+67-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\STSC\.gradle\caches\transforms-3\24984c29e07e32f083cb0ad4e7337f06\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+68
+69        <meta-data
+69-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\STSC\.gradle\caches\transforms-3\112f8a4800a97ba7a37dffaa705d1ac4\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+70            android:name="com.google.android.gms.version"
+70-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\STSC\.gradle\caches\transforms-3\112f8a4800a97ba7a37dffaa705d1ac4\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+71            android:value="@integer/google_play_services_version" />
+71-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\STSC\.gradle\caches\transforms-3\112f8a4800a97ba7a37dffaa705d1ac4\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+72    </application>
+73
+74</manifest>
